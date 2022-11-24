@@ -17,10 +17,10 @@ if platform.system().startswith("Linux"):
         os.system("python3 -m pip install termcolor -q -q -q")
         import termcolor
     try:
-        from Pystyiles import *
+        from pystyle import *
     except:
-        os.system("python3 -m pip install Pystyiles")
-        from Pystyiles import *
+        os.system("python3 -m pip install pystyle")
+        from pystyle import *
     try:
         import colorama
     except ImportError:
@@ -40,10 +40,10 @@ elif platform.system().startswith("Windows"):
         os.system("python -m pip install termcolor -q -q -q")
         import termcolor
     try:
-        from Pystyiles import *
+        from pystyle import *
     except:
-        os.system("python -m pip install Pystyiles")
-        from Pystyiles import *
+        os.system("python -m pip install pystyle")
+        from pystyle import *
     try:
         import colorama
     except ImportError:
